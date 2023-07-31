@@ -1,4 +1,8 @@
+import json  # This is an unused import
+import os  # This is an unused import
+
 import numpy as np  # Import in incorrect order
+from my_library import test  # This is an unused import
 from sklearn.datasets import load_iris  # Import in incorrect order
 from sklearn.linear_model import \
     LogisticRegression  # Import in incorrect order
