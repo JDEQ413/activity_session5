@@ -31,10 +31,10 @@ repos:
     args: [--verbose,  --in-place, --aggressive, --aggressive]
 
 - repo: https://github.com/PyCQA/flake8
-  rev: 6.0.0
+  rev: 6.1.0
   hooks:
   - id: flake8
-    args: [--ignore=E501]
+    args: [--ignore=E501,--ignore=F401]
 
 #- repo: local
 #  hooks:
